@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+
+
+</head>
+
+
+<body>
+<div class="container">
+
+    <h1>Prague</h1>
+    <div id="resolvedAddress" style="font-size: 12px"></div>
+    <div id="description" style="font-weight: bold"></div>
+
+    <section id="weather-data">
+    <div id="temp">Temperature: <span id="temp-value">--</span> °C</div>
+    <div id="feelslike">Feels like: <span id="feelslike-value">--</span> °C</div>
+    <div id="humidity">Humidity: <span id="humidity-value">--</span> %</div>
+    <div id="pressure">Pressure: <span id="pressure-value">--</span> hPa</div>
+    <div id="uvindex">UV index: <span id="uvindex-value">--</span></div>
+    </section>
+
+    <section id="update-section">
+    <button id="refresh-btn">Refresh</button>
+    <div id="update-info" style="font-size: 12px; font-style: italic">Updated <span id="minute-value">X</span> <span id="min-mins">minute(s)</span> ago</div>
+    </section>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
